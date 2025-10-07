@@ -4,16 +4,17 @@
 }
 
 body {
-    font-family: Arial;
-    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dcebf7;
     color: #333333;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 header {
-    background-color: #0d47a1;
+    background-color: #011a41;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 1rem 0;
 
@@ -23,6 +24,8 @@ header {
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
 }
 
 #titulo {
@@ -37,7 +40,7 @@ nav {
 }
 
 .menu {
-    color: white;
+    color:white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -47,7 +50,7 @@ nav {
 }
 
 .hero {
-    background-color: #e3f2fd;
+    background-color: #c7d6d5;
     text-align: center;
     padding: 3rem 1rem;
 }
@@ -73,8 +76,8 @@ nav {
 }
 
 .card {
-    background-color: #e3f2fd;
-    padding: 1em;
+    background-color: #e5ebf0;
+    padding: 1rem;
     border-radius: 0.5em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
@@ -85,10 +88,10 @@ nav {
 }
 
 footer{
-    background-color: #0d47a1;
+    background-color: #011a41;
     color: white;
-    padding: 1rem;
+    padding: 1rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-top: 50px;
-
+    margin-top: auto;
 }
